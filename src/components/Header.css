@@ -1,0 +1,38 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.text {
+    display: inline-flex;
+    font-family: 'Arvo', serif;
+    font-size: xx-large;
+}
+
+h1 {
+    margin: 0px;
+}
+
+
+
+
+@media (max-width:768px) {
+    .text {
+        display: block;
+        font-size: x-large;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .Header {
+        display: block;
+    }
+
+    .Header>.header-link {
+        position: absolute;
+        bottom: 30px;
+    }
+}

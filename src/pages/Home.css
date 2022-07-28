@@ -1,0 +1,25 @@
+/* Result */
+.Result {
+    margin: auto;
+    text-align: center;
+}
+
+.Result>h1 {
+    font-family: 'Arvo', serif;
+    font-size: 120px;
+}
+
+.Result>a {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    .Result>h1 {
+        font-size: 60px;
+    }
+
+    .Result>a {
+        font-size: 1em;
+    }
+}
