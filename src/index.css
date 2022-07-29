@@ -4,8 +4,20 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif; */
 * {
-  background-color: #707070;
   color: #FAF8F7;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(31, 31, 31, 0.7), rgba(34, 34, 34, 0.7)),
+    url(assets/maxime-niyomwungeri.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
 body {
@@ -16,6 +28,7 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 a {

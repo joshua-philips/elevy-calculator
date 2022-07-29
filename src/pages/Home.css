@@ -1,3 +1,98 @@
+.Home {
+    margin: auto;
+}
+
+.form-container {
+    text-align: center;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 50px;
+    background-color: #faf8f7b6;
+    border-radius: 2px;
+
+}
+
+.form-container>h2 {
+    font-size: 2.5em;
+    background: none;
+    margin: 0px;
+    color: #707070;
+    font-family: 'Lato', sans-serif
+}
+
+.form {
+    background: none;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+}
+
+.input {
+    color: #4B4B4B;
+    background-color: white;
+    width: 55%;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px;
+    border: 2px solid #4B4B4B;
+    outline: none;
+
+}
+
+.submit {
+    width: 30%;
+    margin-left: 10px;
+    background-color: #707070;
+    padding: 5px;
+    border-radius: 0px;
+    border: 2px solid #4B4B4B;
+    outline: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .form-container {
+        display: block;
+        text-align: start;
+        padding: 30px;
+
+
+    }
+
+    .form-container>h2 {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: x-large;
+    }
+
+    .input {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .submit {
+        display: block;
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 71%;
+    }
+}
+
 /* Result */
 .Result {
     margin: auto;
@@ -7,6 +102,8 @@
 .Result>h1 {
     font-family: 'Arvo', serif;
     font-size: 120px;
+    margin-top: 0.4em;
+
 }
 
 .Result>a {
@@ -16,7 +113,8 @@
 
 @media (max-width:768px) {
     .Result>h1 {
-        font-size: 60px;
+        margin-top: 1em;
+        font-size: 3em;
     }
 
     .Result>a {

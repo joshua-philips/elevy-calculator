@@ -16,22 +16,23 @@ function HowText() {
     <div>
       <h2>How do we calculate the levy?</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        The E-Levy which is 1.5% of the input value is added to the value itself
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        The additional network charge by mobile network providers which is 0.75%
+        is also added to the value
+      </p>
+      <p>
+        For any further information contact philipsjoshua96@gmail.com. Or you
+        can read more at the{" "}
+        <a
+          className="inline-link"
+          href="https://gra.gov.gh/e-levy/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Official Ghana Revenue Authority website
+        </a>
       </p>
     </div>
   );

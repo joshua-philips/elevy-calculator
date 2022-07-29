@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <div id="background"></div>
       <Routes>
         <Route path="/how" element={<HowCalculated />} />
         <Route path="*" element={<Home />} />
