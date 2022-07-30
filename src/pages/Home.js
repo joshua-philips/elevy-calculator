@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 export default function Home() {
-  const [number, setNumber] = useState(null);
+  const [number, setNumber] = useState("");
   const [result, setResult] = useState(0);
 
   function handleInputChange(event) {
@@ -28,7 +28,7 @@ export default function Home() {
     <div className="Home">
       <Header />
       <div className="form-container">
-        <h2>Before Charges</h2>
+        <h2>Input Amount</h2>
         <form className="form" onSubmit={submitForm}>
           <input
             type="number"

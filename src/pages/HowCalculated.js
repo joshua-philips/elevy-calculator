@@ -13,7 +13,7 @@ export default function HowCalculated() {
 
 function HowText() {
   return (
-    <div>
+    <div className="HowText">
       <h2>How do we calculate the levy?</h2>
       <p>
         The E-Levy which is 1.5% of the input value is added to the value itself

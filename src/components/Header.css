@@ -2,25 +2,37 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 20px;
 }
 
 .text {
     display: inline-flex;
     font-family: 'Arvo', serif;
-    font-size: xx-large;
+    font-size: larger;
 }
 
 h1 {
     margin: 0px;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    margin-top: 20px;
 
+}
+
+.attribution>a {
+    font-weight: bold;
+}
 
 
 @media (max-width:768px) {
     .text {
         display: block;
-        font-size: x-large;
     }
 
     p {
@@ -34,5 +46,21 @@ h1 {
     .Header>.header-link {
         position: absolute;
         bottom: 30px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+
+@media (max-height: 620px) {
+    .Header>.header-link {
+        display: none;
+    }
+
+    .attribution {
+        display: none;
+
     }
 }
